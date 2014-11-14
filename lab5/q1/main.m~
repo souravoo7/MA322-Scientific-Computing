@@ -1,0 +1,9 @@
+h=0.1;
+syms x;
+g=x*x*exp(-x);
+g1=diff(g);
+f=exp(x);
+f1=diff(f);
+%calculating the derivatives
+a=[0:0.1:1];
+

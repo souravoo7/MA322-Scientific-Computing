@@ -1,0 +1,9 @@
+x=[1:1:8];
+y=zeros(1,8);
+n=1;
+while(n<=8)
+    y(n)=f5(x(n));
+    n=n+1;
+end
+display(y);
+plot(x,y)
